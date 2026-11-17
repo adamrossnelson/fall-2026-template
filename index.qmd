@@ -66,6 +66,9 @@ Also give reference to the Python library you will use (e.g., `scipy.stats`) (or
 
 To execute the chi-square test in Python, I used the `scipy.stats.chi2_contingency` function `{python} f"version {scipy.__version__}"`. [@scipy_chi22013_contingency].
 
+### Power Analysis
+
+
 # Results
 
 The outline of the results section should mirror the outline of the "Statistical Analyses" subsection from methods.
