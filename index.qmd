@@ -1,0 +1,95 @@
+---
+title: "A Paper About . . ."
+date: today
+author: 
+  name: Data Science + Human Behavior Program
+  affiliation: University of Wisconsin-Madison
+abstract: "This will be the abstract for the paper. This will be the abstract for the paper. This will be the abstract for the paper. This will be the abstract for the paper. This will be the abstract for the paper. This will be the abstract for the paper. This will be the abstract for the paper. This will be the abstract for the paper. This will be the abstract for the paper."
+bibliography: references.bib
+execute:
+  echo: false
+---
+
+```{python}
+import scipy
+```
+
+::: {.callout-note}
+The code, data, and other materials for this project are available in the associated [github repository](https://github.com/yourusername/yourrepo).
+:::
+
+# Introduction
+
+How do standard, fake-good, and fake-bad survey/instrument response instructions influence LLM survey response behaviors? 
+
+Does the MCSDS assess an LLMs tendency to respond in a socially desirable manner when the LLM was either instructed to respond in a socially desirable manner or not so?
+
+# Literature Review + Context
+
+# Methods
+
+## Definitions
+
+*Fake-good, -bad** -
+
+**Human Like** -
+
+**Instrument** - In the context of this paper, I equate "instrument" with "survey." See also: Survey.
+
+**LLM Survey Response Behaviors** - 
+
+**Race** - According to the *APA Style Manual 7th Ed* "Race refers to physical differences that groups and cultures consider socialy significant." [@APA2020style, p. 142]. In this study race is a construct derived from prompting an LLM that it should respond as if it were a member of a specific racial label such as "___," "___," "___," or "___."
+
+**Survey** - A set of questions designed to gather information from respondents.
+
+## Data Generation
+
+This is where you'll talk about Survey Responder. Ollama. You might even have a "model" api call that you use which exemplifies the api calls that you used? Maybe then with referral to an appendix with the full code.
+
+## Personal Construction
+
+Talk about the demographic characteristics you chose for the personal columns in the persona.json.
+
+## Instruments, Measures, and Surveys
+
+For the PRCA (say generally that it was developed to measure four sub-constructs ... but for this paper you chose two of the four to expedite the work.)
+
+## Statistical Analyses
+
+### T-Tests
+
+Talk about the statistical analyses you will perform . . . a mix of t-test and chi2.
+Take it from a textbook that was assigned in class.
+Also give reference to the Python library you will use (e.g., `scipy.stats`) (or you might use statsmodesl).
+
+### Chi2
+
+To execute the chi-square test in Python, I used the `scipy.stats.chi2_contingency` function `{python} f"version {scipy.__version__}"`. [@scipy_chi22013_contingency].
+
+# Results
+
+The outline of the results section should mirror the outline of the "Statistical Analyses" subsection from methods.
+
+Lots of code in this section. Do your t-tests and chi-square tests here.
+
+## T-Tests
+
+## Chi-Square Tests
+
+```{python}
+#| echo: true
+# Your chi-square test code here
+```
+
+
+# Discussion + Conclusion
+
+## Limitations
+
+We only assessed two of the two of the four sub-constructs from the PRCA.
+
+## Future Research
+
+Expand to the full PRCA and other instruments.
+
+# References

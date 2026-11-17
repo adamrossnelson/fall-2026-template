@@ -7,6 +7,12 @@
 # =========================================================
 /.quarto/
 **/*.quarto_ipynb
+
+# Intermediate tex, aux, and log files
+*.tex
+*.aux
+*.log
+
 # Rendered website output (remove this line if you commit
 # rendered output, e.g. publishing from docs/ or _site/)
 /_site/
